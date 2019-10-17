@@ -1,13 +1,11 @@
 #include<stdio.h>
-main()
-{
+main() {
 int i,j,m,n;
-printf("enter the numbers: ");
-scanf("%d%d",&n, &m);
-for(i=n;i<=m;i++)
-{
-if(i%2!=0)
-printf("%d, ",i);
-else 
-continue;	
+printf("Enter the numbers: ");
+scanf("%d%d", &n, &m);
+for(i=n;i<=m;i++) {
+    if(i%2!=0)
+        printf("%d, ",i);
+    else 
+        continue;	
 }}
