@@ -10,6 +10,8 @@
     { int i,j,k,n;
     cout<<"enter the number:";
     cin>>n;
+     
+     // For Loop
     for(i=1;i<=n;i++)
     {for(j=1;j<i;j++)
     {
@@ -20,4 +22,4 @@
 	cout<<i;
     }cout<<"\n";}
     return(0);
-	}
+}
